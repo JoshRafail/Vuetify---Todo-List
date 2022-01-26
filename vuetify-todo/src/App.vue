@@ -3,6 +3,7 @@
     <v-navigation-drawer 
       v-model="drawer"
       app
+      color="green lighten-4"
     >  
       <v-list-item>
         <v-list-item-content>
@@ -68,10 +69,6 @@
 
       <v-btn icon>
         <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-bomb</v-icon>
       </v-btn>
 
     </v-app-bar>
